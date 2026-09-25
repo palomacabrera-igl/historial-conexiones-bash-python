@@ -1,5 +1,7 @@
 # Historial de conexiones (Bash + Python)
 
+> **In English:** Two scripts that read the output of the Linux `last` command and show a clean table of past user sessions. The Bash script can filter by user and calculate the total connection time. The Python script runs the Bash script and adds sorting (by user, terminal, host or duration) and a final count. Both scripts use clear error messages and exit codes. Individual school project (UTEC, 2025).
+
 Dos scripts que procesan el historial de sesiones de un sistema Linux a partir del comando `last`:
 
 - **`ej1_historial_usuarios_conectados.sh` (Bash):** filtra las sesiones finalizadas y las muestra en una tabla de columnas fijas. Puede filtrar por usuario y calcular el tiempo total de conexión.
