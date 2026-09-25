@@ -104,7 +104,7 @@ echo "$DATOS_LAST" | awk '
 		hcon=$(NF-3); 
 		hdes=$(NF-1);
 	} else { 
-		host="-";   # <--- cambio aquí
+		host="-";
 		fecha=$3" "$4" "$5; 
 		hcon=$(NF-3); 
 		hdes=$(NF-1);
